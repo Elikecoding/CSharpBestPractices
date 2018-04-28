@@ -9,6 +9,6 @@ namespace FirstHelperLibrary
     //Use this as an example, every class should have there own file and the file name should match the class name 
      public class Guest : Person
     {
-        public string email { get; set; }
+        public bool HasRegistered { get; set; }
     }
 }

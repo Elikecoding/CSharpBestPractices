@@ -9,17 +9,17 @@ namespace FirstHelperLibrary
     public class Animal
     {
         //This is the animal class which contains the properties and attributes for my animals
-        public string type { get; set; }
+        public string Type { get; set; }
 
-        public decimal weight { get; set; }
+        public decimal Weight { get; set; }
 
-        public int topSpeed { get; set; }
+        public int TopSpeed { get; set; }
 
-        public string colour { get; set; }
+        public string Colour { get; set; }
 
-        public string noise { get; set; }
+        public string Noise { get; set; }
 
-        public string diet { get; set; }
+        public string Diet { get; set; }
 
     }
 }

@@ -106,16 +106,46 @@
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Animal.cs" />
-    <Compile Include="Guest.cs" />
-    <Compile Include="Person.cs" />
+    <Compile Include="Logic Classes\BookingClass.cs" />
+    <Compile Include="Logic Classes\CustomerController.cs" />
+    <Compile Include="Logic Classes\DateHelper.cs" />
+    <Compile Include="Logic Classes\DemeritPointsCalculator.cs" />
+    <Compile Include="Logic Classes\ErrorLogger.cs" />
+    <Compile Include="Logic Classes\FizzBuzz.cs" />
+    <Compile Include="Logic Classes\HtmlFormatter.cs" />
+    <Compile Include="Logic Classes\Math.cs" />
+    <Compile Include="Logic Classes\PhoneNumber.cs" />
+    <Compile Include="Logic Classes\Stack.cs" />
+    <Compile Include="Model Classes\Animal.cs" />
+    <Compile Include="Model Classes\BookingModel.cs" />
+    <Compile Include="Model Classes\Guest.cs" />
+    <Compile Include="Model Classes\Order.cs" />
+    <Compile Include="Model Classes\Person.cs" />
+    <Compile Include="Model Classes\Video.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service Classes\BookingHelper.cs" />
+    <Compile Include="Service Classes\InstallHelper.cs" />
+    <Compile Include="Service Classes\OrderService.cs" />
+    <Compile Include="Service Classes\ProductService.cs" />
+    <Compile Include="Service Classes\UserController.cs" />
+    <Compile Include="Service Classes\VideoService.cs" />
     <EmbeddedResource Include="Properties\FirstHelperLibrary.rd.xml" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
-      <Version>6.0.6</Version>
+      <Version>6.0.5</Version>
     </PackageReference>
+    <PackageReference Include="Newtonsoft.Json">
+      <Version>11.0.2</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Net.WebClient">
+      <HintPath>..\..\..\..\..\..\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Net.WebClient.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
