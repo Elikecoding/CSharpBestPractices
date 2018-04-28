@@ -6,7 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FirstHelperLibrary\FirstHelperLibrary.csproj" />
+    <ProjectReference Include="..\DemoConsoleUITests\FirstHelperLibraryMsTests.csproj" />
+    <ProjectReference Include="..\FirstHelperLibrary.UnitTests\FirstHelperLibrary.csproj" />
   </ItemGroup>
 
 </Project>
