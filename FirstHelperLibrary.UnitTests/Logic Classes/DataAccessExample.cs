@@ -13,7 +13,7 @@ namespace FirstHelperLibrary.UnitTests.Logic_Classes
         {
             if (file.Length < 10)
             {
-               throw new ArgumentException("The file name was too short" , "file");
+               throw new ArgumentException("The file name was too short" , nameof(file));
             }
             return "File was correctly loaded";
         }
